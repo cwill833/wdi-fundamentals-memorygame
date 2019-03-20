@@ -31,7 +31,7 @@ a {
 	margin: 0 20px;
 	border-bottom: 2px solid transparent;
 }
-
+/*changes the insite nav colors to black when hovered over*/
 a:hover {
 	color: rgba(0,0,0,1);
 }
@@ -89,6 +89,7 @@ footer {
 	font-family: 'Raleway', sans-serif;
 }
 
+/*fixes floating issues for footer*/
 .clearfix:after {
 visibility: hidden;
 display: block;
