@@ -31,7 +31,7 @@ let checkForMatch = function() {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
   console.log('You found a match!');
   alert('You found a match!');
-  
+
 	} else {
   console.log('Sorry, try again.');
   alert('Sorry, try again');
@@ -60,6 +60,10 @@ let createBoard = function() {
 		cardElement.addEventListener('click', flipCard);
 		document.getElementById('game-board').appendChild(cardElement);
 	}
+};
+
+function myButton(){
+	location.reload();
 };
 
 createBoard();

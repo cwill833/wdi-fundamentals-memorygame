@@ -36,6 +36,10 @@ a:hover {
 	color: rgba(0,0,0,1);
 }
 
+button {
+	margin-top: 20px;
+}
+
 h1 {
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
